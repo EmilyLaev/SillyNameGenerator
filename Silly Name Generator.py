@@ -5,6 +5,7 @@ print("Create a silly name:\n\n")
 first = ('Baby', 'Bad News', 'Burpy', 'Bill', 'Beenie', 'Bpb Stinkbug', 'Bowel', 'Boxelder', "Bud 'Lite'", 'Butterbean', 'Buttermilk', 'Buttocks', 'Chad', 'Chesterfield', 'Chewy', 'Chigger', 'Worms')
 last = ('Apple', 'Bigmeat', 'Bloominshine', 'Booger-eater', 'Breeds', 'Clovenhoof', 'Clutterbuck')
 
+#main while loop terminates when user enters n
 while True:
     firstName = random.choice(first)
     lastName = random.choice(last)
